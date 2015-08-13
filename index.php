@@ -17,3 +17,5 @@ $left_arr=quick_sort($left_arr);
 $right_arr=quick_sort($right_arr);
 return array_merge($left_arr,array($key),$right_arr);
 }
+
+var_dump(quick_sort($arr));
