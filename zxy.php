@@ -1,5 +1,5 @@
 <?php
-$zxy = rand(10000);
+$zxy =rand(1,100000);
 ?>
 <form method="get" action="">
     请输入代号:<input type="text" name="val">
