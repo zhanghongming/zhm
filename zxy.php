@@ -1,5 +1,6 @@
 <?php
 $zxy =rand(1,100000);
+$mony = rand(0.5,5);
 ?>
 <form method="get" action="">
     请输入代号:<input type="text" name="val">
@@ -16,8 +17,10 @@ $zxy =rand(1,100000);
             </script>
 <?php
             echo"<font color=\"red\" size=\"28\"> 张馨元的大小:$zxy</font>";
+            钱数为:echo"<font color=\"red\" size=\"28\"> $mony</font>";
         }else{
             echo"<font color=\"red\" size=\"28\">张洪明的大小:$zxy</font>";
+            签署为:echo"<font color=\"red\" size=\"28\"> $mony</font>";
         }
     }
 ?>
