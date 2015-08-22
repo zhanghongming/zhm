@@ -17,10 +17,12 @@ $mony = rand(0.5,5);
             </script>
 <?php
             echo"<font color=\"red\" size=\"28\"> 张馨元的大小:$zxy</font>";
+            echo"<br>";
             echo"<font color=\"red\" size=\"28\">钱数为: $mony</font>";
         }else{
             echo"<font color=\"red\" size=\"28\">张洪明的大小:$zxy</font>";
-           echo"<font color=\"red\" size=\"28\">  签署为:$mony</font>";
+            echo"<br>";
+           echo"<font color=\"red\" size=\"28\">  钱数为:$mony</font>";
         }
     }
 ?>
