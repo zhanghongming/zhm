@@ -1,5 +1,5 @@
 <?php
-$zxy = round(10000);
+$zxy = rand(10000);
 ?>
 <form method="get" action="">
     请输入代号:<input type="text" name="val">
@@ -12,7 +12,7 @@ $zxy = round(10000);
         if($_GET['val']==1){
             ?>
             <script language="JavaScript">
-                alert('张馨元');
+                alert('张馨元大坏蛋哈哈哈哈！！！！');
             </script>
 <?php
             echo"<font color=\"red\" size=\"28\"> 张馨元的大小:$zxy</font>";
